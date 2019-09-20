@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap');
+p {
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 550px;
+}
+
+a {
+    font-weight: 700;
+    color: black;
+}
+
+h1 {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    max-width: 550px;
+    text-align: left;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
