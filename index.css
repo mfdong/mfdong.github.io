@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap');
+
 p {
     font-family: 'Nunito Sans';
     font-weight: 300;
     font-size: 18px;
-    max-width: 550px;
 }
 
 a {
@@ -11,16 +11,36 @@ a {
     color: black;
 }
 
-h1 {
-    font-family: 'Nunito Sans';
-    font-weight: 700;
-    max-width: 550px;
-    text-align: left;
+a:hover {
+    color: #228833
 }
 
-body {
+h1, h2 {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    text-align: center;
+}
+
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+}
+
+.container-item {
+    max-width: 34em;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 0;
+}
+#projects {
+    display: grid;
+}
+
+#greeting {
+    display: flex auto;
 }
