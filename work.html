@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <script src="main.js"></script>
+</head>
+
+<body class="container">
+  <nav class="top-nav">
+    <p class="title">Madison Dong<span class="chinese"> 董伊滨 </span></p>
+    <div class="nav-sections">
+      <a href="index.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="mdong-resume-may20.pdf" target="_blank">Resume</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <div id="projects">
+    <div class="project">
+      <img src="images/lead-locator-map.png" />
+      <div class="proj-text">
+        <p class="title">
+          Lead Locator (code, design)
+        </p>
+        <p class="proj-p">
+          As part of my work in The Washington Post’s election lab, I designed and
+          developed an internal website that uses voter registration data to suggest
+          newsworthy locations to political reporters. I used Node and D3 to make geojson
+          data into locator maps/SVGs. Here are some code snippets:
+        </p>
+        <p class="proj-p">
+          <a href="https://github.com/mfdong/portfolio-code/blob/master/maprender.js" target="_blank">
+            initial map rendering script
+          </a>
+        </p>
+        <p class="proj-p">
+          <a href="https://github.com/mfdong/portfolio-code/blob/master/countymapgen.js" target="_blank">
+            map styler/duplicator script
+          </a>
+        </p>
+        <p class="proj-p">
+          Then, I used Sketch to combine those newsworthy location suggestions into
+          ‘tip sheet’ web pages for journalists:
+        </p>
+        <p class="proj-p">
+          <a href="sourcing-wireframe-1.pdf" target="_blank">
+            tip sheet example
+          </a>
+        </p>
+        <p class="proj-p">
+          I later used React to automate the creation of these tip sheets. I wrote up my process
+          in the “Tip Sheet Generation” and “User Interface Design” sections of this
+          <a href="leadlocator-cplusj.pdf" target="_blank">
+            research paper</a>, to be presented at the 2020 C+J conference.
+        </p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/elex-map.png" />
+      <div class="proj-text">
+        <p class="title">
+          Election Pages (code, design)
+        </p>
+        <p class="proj-p">
+          Designed and developed React components to be dynamically rendered with
+          live data, published on The Washington Post’s website.
+        </p>
+        <p class="proj-p">
+          I first conducted design research on other election pages. Then, I wrote
+          React components using <a href="https://storybook.js.org/" target="_blank">Storybook.js</a>,
+          imported data from S3, and rendered
+          them with Next into mobile AMP and desktop pages. This resulted in a few
+          election pages, as well as a document of research insights presented
+          to the Post’s design team. In the following pages, I wrote the table, dynamic subheaders,
+          and locator maps (for Virginia).
+        </p>
+        <p class="proj-p">
+          <a href="https://www.washingtonpost.com/elections/election-results/north-carolina/" target="_blank">
+            2019 North Carolina special election
+          </a>
+        </p>
+        <p class="proj-p">
+          <a href="https://www.washingtonpost.com/elections/election-results/louisiana/" target="_blank">
+            2019 Louisiana governor election
+          </a>
+        </p>
+        <p class="proj-p">
+          <a href="https://www.washingtonpost.com/elections/election-results/virginia-democratic-primary-live-results/" target="_blank">
+            2019 Virginia Democratic primary
+          </a>
+        </p>
+        <p class="proj-p">
+          <a href="https://www.washingtonpost.com/elections/election-results/iowa/" target="_blank">
+            2020 Iowa Democratic Caucus
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/airbnb.png" />
+      <div class="proj-text">
+        <p class="title">
+          Student Traveler Services (design)
+        </p>
+        <p class="proj-p">
+          Completed a client project with Airbnb’s design team to design solutions for
+          students’ experiences on the platform. Researched the problem, created prototypes,
+          and conducted user testing to uncover behaviors and values.
+        </p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/arduino.jpg" />
+      <div class="proj-text">
+        <p class="title">
+          Interactive Arduino Art (code, design/storytelling)
+        </p>
+        <p class="proj-p">
+          A side project that combined video storytelling with user
+          interactivity to communicate feelings of movement and life changes. Used Arduino,
+          JavaScript, and MadMapper.
+        </p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="images/wireframe.png" />
+      <div class="proj-text">
+        <p class="title">
+          Live Chat Wireframe (design)
+        </p>
+        <p class="proj-p">
+          Conducted design research for a new live chat with reporters to improve upon The Washington
+          Post’s current live blogging system. Wrote insights and then sketched and digitized into a wireframe.
+        </p>
+        <p class="proj-p">
+          <a href="live+chat+wireframe.xd" target="_blank">
+            wireframe (XD file)
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
