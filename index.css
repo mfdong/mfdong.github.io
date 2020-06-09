@@ -32,6 +32,10 @@ nav .chinese {
   font-weight: 400;
 }
 
+.top-nav {
+  margin-bottom: 10px;
+}
+
 nav .nav-sections {
   float: none;
   position: absolute;
@@ -100,10 +104,6 @@ nav {
   max-width: 400px;
 }
 
-.top-nav {
-  margin-bottom: 10px;
-}
-
 .project {
   display: grid;
   grid-template-columns: 200px 400px;
@@ -142,25 +142,21 @@ nav {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .container, .container-contact {
     display: block;
     margin: 10px;
   }
+
   .top-nav .title {
     font-size: 3em;
   }
+
   nav .nav-sections {
-    float: none;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: inline;
     font-weight: 300;
-    display: inline;
     font-size: 1.3em;
-  }
-  .projects {
-    margin-top: 50px;
+    position: static;
   }
 
   .project {
@@ -179,9 +175,6 @@ nav {
     margin-top: 30px;
   }
 
-  .top-nav {
-    margin-bottom: 15px;
-  }
   .bio img {
     display: block;
     margin-left: auto;
