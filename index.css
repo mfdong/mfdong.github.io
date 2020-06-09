@@ -50,7 +50,6 @@ nav .nav-sections a {
 
 nav {
   margin: 0 auto;
-  max-width: 500px;
   grid-column: 1 / span 2;
 }
 
@@ -101,10 +100,6 @@ nav {
   max-width: 400px;
 }
 
-@media screen and (max-width: 600px) {
-
-}
-
 .top-nav {
   margin-bottom: 10px;
 }
@@ -145,4 +140,51 @@ nav {
   margin-top: 0;
   margin-bottom: 0.25em;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .container, .container-contact {
+    display: block;
+    margin: 10px;
+  }
+  .top-nav .title {
+    font-size: 3em;
+  }
+  nav .nav-sections {
+    float: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline;
+    font-weight: 300;
+    display: inline;
+    font-size: 1.3em;
+  }
+  .projects {
+    margin-top: 50px;
+  }
+
+  .project {
+    display: block;
+  }
+
+  .project img {
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bio {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .top-nav {
+    margin-bottom: 15px;
+  }
+  .bio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
