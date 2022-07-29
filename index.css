@@ -48,16 +48,16 @@ nav .nav-sections {
   font-size: 1.5em;
 }
 
-nav .nav-sections a {
+/* nav .nav-sections a {
   margin-right: 20px;
 }
 
 nav {
   margin: 0 auto;
   grid-column: 1 / span 2;
-}
+} */
 
-.bio {
+/* .bio {
   display: grid;
   grid-template-columns: 200px 400px;
   grid-column: 1 / span 2;
@@ -74,17 +74,17 @@ nav {
 
 .bio-text {
   grid-column: 2;
-}
+} */
 
 .container {
   border: 1px solid #4869ab;
   margin: 0 auto;
   margin-top: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   padding: 2em;
   max-width: 600px;
   display: grid;
-  grid-template-columns: 200px 400px;
+  /* grid-template-columns: 200px 400px; */
 }
 
 .container-contact {
@@ -171,7 +171,7 @@ nav {
   }
 
   .bio {
-    display: block;
+    /* display: block; */
     margin-top: 30px;
   }
 
