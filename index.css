@@ -2,7 +2,7 @@ body {
   background-color: #ededed;
   font-family: "Cardo", serif;
   color: #4869ab;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 a {
@@ -24,7 +24,8 @@ a:hover {
   border: 1px solid #4869ab;
   margin: 0 auto;
   padding: 3vw;
-  max-width: 80vw;
+  width: 70vw;
+  max-width: 800px;
   max-height: 80vh;
   position: absolute;
   left: 50%;
@@ -47,14 +48,9 @@ a:hover {
 
 .nav-section {
   margin-right: 1em;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .nav-sections {
   margin-bottom: 1em;
-}
-
-.sans-serif {
-  font-family: "Lexend";
-  font-weight: 350;
 }
