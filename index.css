@@ -123,6 +123,7 @@ nav .nav-sections {
   font-style: italic;
   font-weight: 700;
   margin-bottom: 1em;
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 650px) {
