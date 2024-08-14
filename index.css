@@ -5,14 +5,6 @@ body {
   font-size: 16px;
 }
 
-p {
-  font-family: "Cardo", serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2em;
-  margin-bottom: 0;
-}
-
 a {
   background-image: linear-gradient(180deg, transparent 65%, #ffd0ae 0);
   background-size: 100% 100%;
@@ -28,140 +20,41 @@ a:hover {
   cursor: pointer;
 }
 
-nav .chinese {
-  font-family: "Noto_Sans_SC";
-  font-weight: 400;
-}
-
-.top-nav {
-  margin-bottom: 10px;
-}
-
-nav .nav-sections {
-  float: none;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: inline;
-  user-select: none;
-  font-family: "Cardo", serif;
-  font-weight: 300;
-  font-size: 1.5em;
-}
-
 .container {
   border: 1px solid #4869ab;
   margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  padding: 100px;
-  max-width: 650px;
-  display: grid;
+  padding: 3vw;
+  max-width: 80vw;
+  max-height: 80vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: scroll;
 }
 
-.container-contact {
-  border: 1px solid #4869ab;
-  margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 100px;
-  padding: 2em;
-  max-width: 600px;
-}
-
-.contacts {
-  margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 100px;
-  padding: 2em;
-  max-width: 400px;
-}
-
-.project {
-  display: grid;
-  grid-template-columns: 200px 400px;
-  margin-top: 30px;
-}
-
-.project img {
-  display: inline;
-  width: 150px;
-  height: 150px;
-  vertical-align: top;
-  margin: 10px;
-  grid-column: 1;
-  border: 1px solid #4869ab;
-}
-
-.project .title {
-  font-family: "Cardo", serif;
-  font-size: 2em;
-  margin-top: 0;
-  grid-column: 2;
-}
-
-.project .proj-p {
-  font-family: "Cardo", serif;
-  font-size: 18px;
-  grid-column: 2;
-  text-align: justify;
-}
-
-.top-nav .title {
-  font-family: "Cardo", serif;
+.title {
   font-weight: 500;
   font-size: 4em;
   margin-top: 0;
   margin-bottom: 0.25em;
 }
 
-.bio-text {
+.main-text {
   font-size: 1.2em;
   line-height: 1.6em;
 }
 
-.subhed {
-  font-style: italic;
-  font-weight: 700;
-  margin-bottom: 1em;
+.nav-section {
+  margin-right: 1em;
   font-size: 1.2em;
 }
 
-@media only screen and (max-width: 650px) {
-  .container,
-  .container-contact {
-    display: block;
-    margin: 10px;
-  }
+.nav-sections {
+  margin-bottom: 1em;
+}
 
-  .top-nav .title {
-    font-size: 3em;
-  }
-
-  nav .nav-sections {
-    display: inline;
-    font-weight: 300;
-    font-size: 1.3em;
-    position: static;
-  }
-
-  .project {
-    display: block;
-  }
-
-  .project img {
-    margin: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .bio {
-    margin-top: 30px;
-  }
-
-  .bio img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.sans-serif {
+  font-family: "Lexend";
+  font-weight: 350;
 }
