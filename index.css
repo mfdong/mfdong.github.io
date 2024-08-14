@@ -1,19 +1,20 @@
 body {
   background-color: #ededed;
+  font-family: "Cardo", serif;
   color: #4869ab;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 p {
-    font-family: 'Inconsolata';
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 1.2em;
-    margin-bottom: 0;
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2em;
+  margin-bottom: 0;
 }
 
 a {
-  background-image: linear-gradient(180deg,transparent 65%,#FFD0AE 0);
+  background-image: linear-gradient(180deg, transparent 65%, #ffd0ae 0);
   background-size: 100% 100%;
   text-decoration: none;
   color: #4869ab;
@@ -22,13 +23,13 @@ a {
 a:hover {
   text-decoration: none;
   font-weight: 400;
-  background-image: linear-gradient(180deg,transparent 65%,#ffb987 0);
+  background-image: linear-gradient(180deg, transparent 65%, #ffb987 0);
   background-size: 100% 100%;
   cursor: pointer;
 }
 
 nav .chinese {
-  font-family: 'Noto_Sans_SC';
+  font-family: "Noto_Sans_SC";
   font-weight: 400;
 }
 
@@ -43,38 +44,10 @@ nav .nav-sections {
   transform: translate(-50%, -50%);
   display: inline;
   user-select: none;
-  font-family: 'Karla';
+  font-family: "Cardo", serif;
   font-weight: 300;
   font-size: 1.5em;
 }
-
-/* nav .nav-sections a {
-  margin-right: 20px;
-}
-
-nav {
-  margin: 0 auto;
-  grid-column: 1 / span 2;
-} */
-
-/* .bio {
-  display: grid;
-  grid-template-columns: 200px 400px;
-  grid-column: 1 / span 2;
-}
-
-.bio img {
-  margin-left: 10px;
-  grid-column: 1;
-  width: 150px;
-  height: 150px;
-  margin-top: 20px;
-  border: 1px solid #4869ab;
-}
-
-.bio-text {
-  grid-column: 2;
-} */
 
 .container {
   border: 1px solid #4869ab;
@@ -82,9 +55,8 @@ nav {
   margin-top: 70px;
   margin-bottom: 70px;
   padding: 2em;
-  max-width: 600px;
+  max-width: 650px;
   display: grid;
-  /* grid-template-columns: 200px 400px; */
 }
 
 .container-contact {
@@ -121,29 +93,40 @@ nav {
 }
 
 .project .title {
-  font-family: 'Karla';
+  font-family: "Cardo", serif;
   font-size: 2em;
   margin-top: 0;
   grid-column: 2;
 }
 
 .project .proj-p {
-  font-family: 'Inconsolata';
+  font-family: "Cardo", serif;
   font-size: 18px;
   grid-column: 2;
   text-align: justify;
 }
 
 .top-nav .title {
-  font-family: 'Karla';
-  font-size: 3.9em;
+  font-family: "Cardo", serif;
+  font-weight: 500;
+  font-size: 4em;
   margin-top: 0;
   margin-bottom: 0.25em;
   text-align: center;
 }
 
+.bio-text {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.subhed {
+  font-style: italic;
+}
+
 @media only screen and (max-width: 650px) {
-  .container, .container-contact {
+  .container,
+  .container-contact {
     display: block;
     margin: 10px;
   }
@@ -171,7 +154,6 @@ nav {
   }
 
   .bio {
-    /* display: block; */
     margin-top: 30px;
   }
 
