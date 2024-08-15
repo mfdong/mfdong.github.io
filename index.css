@@ -2,7 +2,6 @@ body {
   background-color: #ededed;
   font-family: "Cardo", serif;
   color: #4869ab;
-  font-size: 18px;
 }
 
 a {
@@ -22,11 +21,12 @@ a:hover {
 
 .container {
   border: 1px solid #4869ab;
+  box-shadow: 8px 5px #4869ab;
   margin: 0 auto;
   padding: 3vw;
-  width: 70vw;
+  width: 90vw;
   max-width: 800px;
-  max-height: 80vh;
+  max-height: 800px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -36,21 +36,57 @@ a:hover {
 
 .title {
   font-weight: 500;
-  font-size: 4em;
+  font-size: 70px;
   margin-top: 0;
-  margin-bottom: 0.25em;
+  margin-bottom: 10px;
 }
 
 .main-text {
-  font-size: 1.2em;
-  line-height: 1.6em;
+  font-size: 22px;
+  line-height: 36px;
 }
 
 .nav-section {
   margin-right: 1em;
-  font-size: 1.4em;
+  font-size: 22px;
 }
 
 .nav-sections {
-  margin-bottom: 1em;
+  margin-bottom: 22px;
+}
+
+@media only screen and (min-width: 1050px) {
+  .container {
+    padding: 3vw;
+    width: 70vw;
+    max-width: 800px;
+    max-height: 800px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 80vw;
+    max-height: 90vh;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .main-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .nav-section {
+    margin-right: 1em;
+    font-size: 24px;
+  }
+
+  .nav-sections {
+    margin-bottom: 24px;
+  }
 }
