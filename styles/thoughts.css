@@ -1,0 +1,28 @@
+.thought-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.thing {
+  margin-bottom: 40px;
+}
+.generate-button {
+  width: 100%;
+  border: 1px solid #4869ab;
+  box-shadow: 8px 5px #4869ab;
+  font-family: "Cardo", serif;
+  color: #4869ab;
+  font-size: 20px;
+}
+
+.thought-wrap {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  max-width: 800px;
+  position: absolute;
+}
